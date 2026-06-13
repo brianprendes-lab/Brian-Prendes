@@ -40,7 +40,7 @@ Physics & Math: Leverages randomized algorithms to solve deterministic problems.
 
 Features:
 
-Approximates $\pi$ via geometric probability scattering.
+Approximates Pi via geometric probability scattering.
 
 Simulates quantum radioactive decay half-lives.
 
@@ -66,6 +66,3 @@ pip install numpy scipy sympy matplotlib pytest
 2. Execute a Simulation:
 
 python vectorized_n_body_simulator.py
-
-
-(Simply replace the filename with whichever simulation you'd like to view).
