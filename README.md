@@ -1,7 +1,7 @@
 #  Brian Prendes — Physics, Engineering & Software Portfolio
 
 **Physics & Mechanical Engineering · Yale University**
-> Bridging quantum science and software engineering through high-performance simulation and visualization.
+> Bridging quantum science, engineering and software together for accurate results
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
