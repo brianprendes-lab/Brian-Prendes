@@ -15,7 +15,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-brian--prendes-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-prendes-ab158a375/)
 [![Email](https://img.shields.io/badge/Email-brianlprendes%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:brianlprendes@gmail.com)
-[![Hardware Portfolio](https://img.shields.io/badge/Hardware_Portfolio-GitHub-181717?style=flat&logo=github&logoColor=white)](#)
+[![Hardware Portfolio](https://brian-prendes.github.io/)](#)
 
 ---
 
