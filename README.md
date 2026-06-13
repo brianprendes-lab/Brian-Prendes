@@ -73,7 +73,7 @@ A collection of Python-based simulation engines and data visualization tools des
 
 ---
 
-## ⚙️ Running locally
+## How to run locally
 
 **1. Install dependencies:**
 
