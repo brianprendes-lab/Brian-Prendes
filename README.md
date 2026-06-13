@@ -1,68 +1,90 @@
-🔭 Brian Prendes | Computational Physics & Software Portfolio
+# 🔭 Brian Prendes — Computational Physics & Software Portfolio
 
-Hi, I'm Brian Prendes, a Physics and Mechanical Engineering major at Yale University.
+**Physics & Mechanical Engineering · Yale University**
+> Bridging quantum science and software engineering through high-performance simulation and visualization.
 
-I am deeply passionate about designing, building, and exploring the intersection of quantum science and software engineering. This repository serves as a showcase of my ability to translate complex physical phenomena and advanced mathematics into optimized, visual, and highly efficient code.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white)
+![Yale](https://img.shields.io/badge/Yale_University-00356B?style=flat&logoColor=white)
 
-📫 Let's Connect & Explore More of My Work
+---
 
-LinkedIn: brian-prendes-ab158a375
+## 📫 Let's connect
 
-Email: brianlprendes@gmail.com
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-brian--prendes-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brian-prendes-ab158a375/)
+[![Email](https://img.shields.io/badge/Email-brianlprendes%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:brianlprendes@gmail.com)
+[![Hardware Portfolio](https://img.shields.io/badge/Hardware_Portfolio-GitHub-181717?style=flat&logo=github&logoColor=white)](#)
 
-Hardware/Engineering Portfolio: (Insert the link to your other GitHub repository here!)
+---
 
-💻 Inside This Repository: Physics Simulation Suite
+## 💻 Physics simulation suite
 
-This repository contains a collection of Python-based simulation engines and data visualization tools designed to model physical systems and algorithmic behavior using advanced numerical methods.
+A collection of Python-based simulation engines and data visualization tools designed to model physical systems and algorithmic behavior using advanced numerical methods.
 
-1. Vectorized N-Body Electrostatic Simulator
+---
 
-File: vectorized_n_body_simulator.py
+### 01 · Vectorized N-Body Electrostatic Simulator
+`vectorized_n_body_simulator.py`
 
-Physics: Simulates micro-universe interactions between protons and electrons using Coulomb's Law, tracking velocity, friction damping, and elastic boundary collisions.
+**Physics:** Simulates micro-universe interactions between protons and electrons using Coulomb's Law, tracking velocity, friction damping, and elastic boundary collisions.
 
-Engineering Edge: Eliminates slow standard loops by utilizing NumPy vectorization and matrix broadcasting to calculate forces for 150+ particles simultaneously. Includes automated symbolic math verification using SymPy.
+**Engineering edge:** Eliminates slow loops via NumPy vectorization and matrix broadcasting to calculate forces for 150+ particles simultaneously. Includes automated symbolic math verification using SymPy.
 
-2. Numerical ODE Solver Dashboard
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SymPy](https://img.shields.io/badge/SymPy-3B5526?style=flat-square&logoColor=white)
 
-File: scipy_ode_solver_dashboard.py
+---
 
-Physics: Predicts the future dynamic states of a Spring-Mass Damper, a Non-Linear Pendulum (phase space tracking), and the chaotic 3D Lorenz Attractor.
+### 02 · Numerical ODE Solver Dashboard
+`scipy_ode_solver_dashboard.py`
 
-Engineering Edge: Benchmarks native, custom-built Euler methods against optimized, industry-standard adaptive algorithms (SciPy's RK45) to demonstrate an understanding of numerical integration accuracy limits.
+**Physics:** Predicts the future dynamic states of a Spring-Mass Damper, a Non-Linear Pendulum (phase space tracking), and the chaotic 3D Lorenz Attractor.
 
-3. Monte Carlo Stochastic Physics Engine
+**Engineering edge:** Benchmarks native custom-built Euler methods against SciPy's RK45 adaptive algorithms to demonstrate understanding of numerical integration accuracy limits.
 
-File: monte_carlo_physics_simulator.py
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
 
-Physics & Math: Leverages randomized algorithms to solve deterministic problems.
+---
 
-Features:
+### 03 · Monte Carlo Stochastic Physics Engine
+`monte_carlo_physics_simulator.py`
 
-Approximates Pi via geometric probability scattering.
+**Physics & math:** Leverages randomized algorithms to solve deterministic problems.
 
-Simulates quantum radioactive decay half-lives.
+- 🎯 Approximates π via geometric probability scattering
+- ☢️ Simulates quantum radioactive decay half-lives
+- 🚶 Maps 2D Brownian motion (random walks)
+- 🧲 Models atomic magnetic spin thermodynamics via Metropolis-Hastings (Ising Model)
 
-Maps 2D Brownian motion (random walks).
+![Monte Carlo](https://img.shields.io/badge/Monte_Carlo-Stochastic-success?style=flat-square)
+![Ising Model](https://img.shields.io/badge/Metropolis--Hastings-Ising_Model-blueviolet?style=flat-square)
 
-Simulates the thermodynamics of atomic magnetic spin alignments using the Metropolis-Hastings algorithm (Ising Model).
+---
 
-4. Real-Time Algorithm Visualizer
+### 04 · Real-Time Algorithm Visualizer
+`algorithm_visualizer.py`
 
-File: algorithm_visualizer.py
+**Computer science:** Bridges algorithmic logic with live visual graphics. Uses Python `yield` generators to stream intermediate array states of sorting algorithms directly into a Matplotlib animation loop, frame-by-frame.
 
-Computer Science: Bridges standard algorithmic logic with visual graphics. Uses Python yield generators to stream the intermediate array states of a sorting algorithm directly into a Matplotlib animation loop frame-by-frame.
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Animation-11557C?style=flat-square)
+![Generators](https://img.shields.io/badge/Python-yield_generators-3776AB?style=flat-square&logo=python&logoColor=white)
 
-⚙️ How to Run Locally
+---
 
-If you would like to run these simulations on your own machine, you will need Python installed along with a few standard scientific libraries.
+## ⚙️ Running locally
 
-1. Install Required Dependencies:
+**1. Install dependencies:**
 
+```bash
 pip install numpy scipy sympy matplotlib pytest
+```
 
+**2. Run any simulation:**
 
-2. Execute a Simulation:
-
+```bash
 python vectorized_n_body_simulator.py
+```
+
+Replace the filename with whichever simulation you'd like to explore.
