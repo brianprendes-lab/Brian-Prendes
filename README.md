@@ -1,4 +1,4 @@
-#  Brian Prendes — Computational Physics & Software Portfolio
+#  Brian Prendes — Physics, Engineering & Software Portfolio
 
 **Physics & Mechanical Engineering · Yale University**
 > Bridging quantum science and software engineering through high-performance simulation and visualization.
