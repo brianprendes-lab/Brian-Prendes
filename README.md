@@ -53,10 +53,10 @@ A collection of Python-based simulation engines and data visualization tools des
 
 **Physics & math:** Leverages randomized algorithms to solve deterministic problems.
 
-- 🎯 Approximates π via geometric probability scattering
-- ☢️ Simulates quantum radioactive decay half-lives
-- 🚶 Maps 2D Brownian motion (random walks)
-- 🧲 Models atomic magnetic spin thermodynamics via Metropolis-Hastings (Ising Model)
+- Approximates π via geometric probability scattering
+- Simulates quantum radioactive decay half-lives
+- Maps 2D Brownian motion (random walks)
+- Models atomic magnetic spin thermodynamics via Metropolis-Hastings (Ising Model)
 
 ![Monte Carlo](https://img.shields.io/badge/Monte_Carlo-Stochastic-success?style=flat-square)
 ![Ising Model](https://img.shields.io/badge/Metropolis--Hastings-Ising_Model-blueviolet?style=flat-square)
